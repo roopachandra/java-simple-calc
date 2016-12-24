@@ -1,6 +1,3 @@
-/**********************************************************************
-
- **********************************************************************/
 
 
 Name: Roopa Chandra 
@@ -24,10 +21,10 @@ To begin with, I will be creating the interface for the calculator through Penn 
     numbers and then to output the result when the user clicks equal or goes on to click
     another operator. For example, if the user clicks 5, the plus, the 10, the divide, then
     the 5; it will take the 5 and 10, add them together and output the result. It will then,
-        take the result (15) and divide by 5 and output 3. This behavior is similar to the
-        calculator found on mac laptops which provides an intuitive interface. The calculator
-        also accepts multi-digit numbers but will only display one number at a time. For example
-        when entering 555, it will show 5 three times. 
+     take the result (15) and divide by 5 and output 3. This behavior is similar to the
+     calculator found on mac laptops which provides an intuitive interface. The calculator
+     also accepts multi-digit numbers but will only display one number at a time. For example
+     when entering 555, it will show 5 three times. 
         
 When creating the calculator, I will create a while true loop that will monitor the mouse
         clicks and determine what button was clicked by using the x-coordinate and y-coordinate
@@ -53,8 +50,8 @@ This calculator will have an addition, subtraction, division, multiplication, an
     To run the project, run Draw.java by calling java Draw. The program works as follows: 
         In order to use addition, subtraction, multiplication, and division, type in a number, the operator,
         the second number, and the = button. The program will then output the 
-    correct answer. In order to complete a second calculation, you have to repeat the process: type in one number,
-    the operator, and the second operator. For factorial, you have to type in a number and the factorial button (!).
+        correct answer. In order to complete a second calculation, you have to repeat the process: type in one number,
+        the operator, and the second operator. For factorial, you have to type in a number and the factorial button (!).
     Our calculator requires that once you enter a number operator number = and get the result, you start a new calculation in
         the same format number operator number equal. You cannot take the result and immediately click a new operator. If you wish to
         use the result later, you can enter it and then hit store mem to save it for later. 
